@@ -1,0 +1,385 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Theodoros Pissas</title>
+
+    <meta name="author" content="Theodoros Pissas">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Theodoros Pissas
+                </p>
+                <p>I am a postdoctoral researcher at the University of Bern in Switzerland, working with Prof. <a href="https://scholar.google.com/citations?user=tG0ow2UAAAAJ&hl=en"> Raphael Sznitman</a> within the <a href=https://www.artorg.unibe.ch/research/aimi/index_eng.html>Artificial Intelligence in Medical Imaging group</a>.
+                  My current research focuses on large-scale multimodal learning for generalizable medical image understanding and on semantic segmentation in natural and medical domains.
+                </p>
+                <p>
+                   Prior to joining UniBern, I completed my PhD at University College London under the supervision of Prof. <a href=https://rvim.online/author/christos-bergeles/> Christos Bergeles</a> and Prof. <a href=https://www.moorfields-private.co.uk/consultants/lyndon-da-cruz/> Lyndon Da Cruz</a> working on pixel-level semantic understanding of multimodal ophthalmic images and natural scenes.
+                </p>
+                <p>
+                   A long time ago, I studied Electrical and Computer Engineering at the National Technical University of Athens where I worked on action recognition using video and depth sensors under the supervision of Prof. <a href=>Petros Maragos</a>
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:theodoros.pissas@unibe.ch">Email</a> &nbsp;/&nbsp;
+                  <a href="data/CV.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=hgBUqpsAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://twitter.com/pis_tho">Twitter</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/TheoPis/">Github</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:40%;max-width:40%">
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <h2>Research</h2>
+                <p>
+                  I'm generally interested in all aspects of recognition problems (segmentation, detection, classification) in both natural and medical domains.
+                  I am also passionate about developing self-supervised learning methods using large-scale multimodal medical data from visual and textual sources.
+                  My current research also aims to develop foundational multimodal models for ophthalmology that can be easily adapted to perform various tasks such as biomarker detection, segmentation or disease progression estimation.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+    
+      <tr onmouseout="ccdm_stop()" onmouseover="ccdm_start()"  >
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='CCDM_image'>
+            <img src='data/ICCV_2023/results.png' width="180" height="150"></div>
+            <img src='data/ICCV_2023/method.png' width="180">
+          </div>
+          <script type="text/javascript">
+            function ccdm_start() {
+              document.getElementById('CCDM_image').style.opacity = "1";
+            }
+
+            function ccdm_stop() {
+              document.getElementById('CCDM_image').style.opacity = "0";
+            }
+            zipnerf_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Zbinden_Stochastic_Segmentation_with_Conditional_Categorical_Diffusion_Models_ICCV_2023_paper.html">
+            <span class="papertitle">Stochastic Segmentation with Conditional Categorical Diffusion Models</span>
+          </a>
+          <br>
+          <a>Lukas Zbinden*</a>,
+          <a href="https://larsdoorenbos.github.io/">Lars Doorenbos*</a>,
+          <strong>Theodoros Pissas</strong>,
+          <a> Adrian Thomas Huber</a>,
+          <a> Raphael Sznitman</a>,
+          <a> Pablo Márquez-Neila</a>,
+          <br>
+          <em>ICCV</em>, 2023
+          <br>
+          <a href="https://arxiv.org/abs/2303.08888">arXiv</a>
+          /
+          <a href="https://github.com/LarsDoorenbos/ccdm-stochastic-segmentation">code</a>
+
+          <p></p>
+          <p>
+          Conditional Categorical Diffusion models are effective in learning multi-rater segmentation distributions and standard semantic segmentation.
+          </p>
+        </td>
+      </tr>
+
+      <tr onmouseout="contrastive_stop()" onmouseover="contrastive_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='ECCV2022'>
+            <img src='data/ECCV_2022/results.png' width="180" height="150"></div>
+            <img src='data/ECCV_2022/method_overview.png' width="180">
+          </div>
+          <script type="text/javascript">
+            function contrastive_start() {
+              document.getElementById('ECCV2022').style.opacity = "1";
+            }
+
+            function contrastive_stop() {
+              document.getElementById('ECCV2022').style.opacity = "0";
+            }
+            db3d_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://link.springer.com/chapter/10.1007/978-3-031-19818-2_24">
+            <span class="papertitle">Multi-scale and Cross-scale Contrastive Learning for Semantic Segmentation
+
+</span>
+          </a>
+          <br>
+          <strong>Theodoros Pissas</strong>,
+          <a href=https://scholar.google.com/citations?user=6I7loBMAAAAJ&hl=en/> Claudio Ravasio</a>,
+          <a href=https://www.moorfields-private.co.uk/consultants/lyndon-da-cruz/> Lyndon Da Cruz</a>,
+          <a href=https://rvim.online/author/christos-bergeles/> Christos Bergeles</a>,
+          <br>
+          <em>ECCV </em>, 2022
+          <br>
+          <a href="https://arxiv.org/pdf/2203.13409 ">arxiv</a>
+          /
+          <a href="https://github.com/RViMLab/MS_CS_ContrSeg">code</a>
+          /
+          <a href="https://www.youtube.com/watch?v=5Y05EYxJ6Rs&ab_channel=TheodorePissas">video</a>
+          <p></p>
+          <p> Multi-scale and Cross-scale contrastive learning improves semantic segmentation for many standard architectures and datasets.</p>
+        </td>
+      </tr>
+
+      <tr onmouseout="cata_stop()" onmouseover="cata_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="center" id='MICCAI2021'><video  width="112%" height="120%" muted autoplay loop>
+            <source src="data/MICCAI_2021/results_2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video></div>
+          </div>
+          <script type="text/javascript">
+            function cata_start() {
+              document.getElementById('MICCAI2021').style.opacity = "1";
+            }
+
+            function cata_stop() {
+              document.getElementById('MICCAI2021').style.opacity = "1";
+            }
+            db3d_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://link.springer.com/chapter/10.1007/978-3-031-19818-2_24">
+            <span class="papertitle">Effective semantic segmentation in Cataract Surgery: What matters most?
+
+
+
+
+
+</span>
+          </a>
+          <br>
+          <strong>Theodoros Pissas*</strong>,
+          <a href=https://scholar.google.com/citations?user=6I7loBMAAAAJ&hl=en/> Claudio Ravasio*</a>,
+          <a href=https://www.moorfields-private.co.uk/consultants/lyndon-da-cruz/> Lyndon Da Cruz</a>,
+          <a href=https://rvim.online/author/christos-bergeles/> Christos Bergeles</a>,
+          <br>
+          <em>MICCAI</em>, 2021 <font color="red"><strong>(Ranked 1st at <a href="https://arxiv.org/pdf/2110.10965"> MICCAI Endoscopic Vision (EndoVis) Challenge 2020 </a>)</strong></font>
+
+          <br>
+          <a href="https://arxiv.org/pdf/2108.06119">arxiv</a>
+            /
+          <a href="https://github.com/RViMLab/MICCAI2021_Cataract_semantic_segmentation">code</a>
+            /
+          <a href="https://www.youtube.com/watch?v=twVIPUj1WZM&ab_channel=RoboticsandVisioninMedicine">demo</a>
+            /
+          <a href="https://www.youtube.com/watch?v=25Z923URIgo&t=42s&pp=ygUHcnZpbWxhYg%3D%3D">video</a>
+          <p></p>
+          <p> Addressing class imbalance for semantic segmentation in Cataract Surgery videos is essential for effective surgical scene understanding </p>
+        </td>
+      </tr>
+
+
+
+      <tr onmouseout="oct_stop()" onmouseover="oct_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="center" id='OCT_SR_1'>
+            <img src='data/IJCARS_2022/results.png' width="180" height="150"></div>
+            </div>
+          <script type="text/javascript">
+            function oct_start() {
+              document.getElementById('OCT_SR_1').style.opacity = "1";
+            }
+
+            function oct_stop() {
+              document.getElementById('OCT_SR_1').style.opacity = "1";
+            }
+            oct_stop()
+          </script>
+
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://opg.optica.org/abstract.cfm?uri=BOE-11-5-2490">
+            <span class="papertitle">Surgical biomicroscopy-guided intra-operative optical coherence tomography (iOCT) image super-resolution
+
+</span>
+          </a>
+          <br>
+          Charalampos Komninos,
+          <strong>Theodoros Pissas</strong>,
+          Lina Mekki,
+          Edward Bloch,
+          Blanca Flores,
+          Tom Vercauteren,
+          Sébastien Ourselin
+          <a href=https://www.moorfields-private.co.uk/consultants/lyndon-da-cruz/> Lyndon Da Cruz</a>,
+          <a href=https://rvim.online/author/christos-bergeles/> Christos Bergeles</a>,
+          <br>
+          <em> International Journal of Computer Assisted Radiology and Surgery (IJCARS) </em>, 2022
+          <br>
+          <a href="">paper</a>
+          /
+
+          <p></p>
+          <p> </p>
+        </td>
+      </tr>
+
+
+      <tr onmouseout="octa_stop()" onmouseover="octa_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="center" id='db3d_image'><video  width=112% height=140% muted autoplay loop>
+            <source src="data/BOE_2020/3d_vessels_v3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video></div>
+          </div>
+          <script type="text/javascript">
+            function octa_start() {
+              document.getElementById('db3d_image').style.opacity = "1";
+            }
+
+            function octa_stop() {
+              document.getElementById('db3d_image').style.opacity = "1";
+            }
+            db3d_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://opg.optica.org/abstract.cfm?uri=BOE-11-5-2490">
+            <span class="papertitle">Deep iterative vessel segmentation in OCT angiography
+</span>
+          </a>
+          <br>
+          
+          <strong>Theodoros Pissas</strong>,
+          Edward Bloch,
+          Blanca Flores,
+          Odysseas Georgiadis,
+          Sepehr Jalali,
+          <a href=https://scholar.google.com/citations?user=6I7loBMAAAAJ&hl=en> Claudio Ravasio</a>,
+          Danail Stoyanov,
+          <a href=https://www.moorfields-private.co.uk/consultants/lyndon-da-cruz/> Lyndon Da Cruz</a>,
+          <a href=https://rvim.online/author/christos-bergeles/> Christos Bergeles</a>,
+          <br>
+          <em>Biomedical Optics Express</em>, 2020
+          <br>
+          <a href="https://opg.optica.org/abstract.cfm?uri=BOE-11-5-2490">paper</a>
+          /
+          <a href="https://github.com/RViMLab/BOE2020-OCTA-vessel-segmentation">code</a>
+          <p></p>
+          <p> Blood vessel segmentation in Optical Coherence Tomography Angiography of the human retina.</p>
+        </td>
+      </tr>
+
+      <tr onmouseout="flow_stop()" onmouseover="flow_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="center" id='flow_2020'>
+            <img src='data/IJCARS_2020/visual.png' width="180" height="150"></div>
+          </div>
+          <script type="text/javascript">
+            function flow_start() {
+              document.getElementById('flow_2020').style.opacity = "1";
+            }
+
+            function flow_stop() {
+              document.getElementById('flow_2020').style.opacity = "1";
+            }
+            flow_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://link.springer.com/article/10.1007/s11548-020-02160-9">
+            <span class="papertitle">Learned optical flow for intra-operative tracking of the retinal fundus
+
+</span>
+          </a>
+          <br>
+
+          <a href=https://scholar.google.com/citations?user=6I7loBMAAAAJ&hl=en> Claudio Ravasio</a>,
+          <strong>Theodoros Pissas</strong>,
+          Edward Bloch,
+          Blanca Flores,
+          Odysseas Georgiadis,
+          Sepehr Jalali,
+          Danail Stoyanov,
+          Jorge M Cardoso,
+          <a href=https://www.moorfields-private.co.uk/consultants/lyndon-da-cruz/> Lyndon Da Cruz</a>,
+          <a href=https://rvim.online/author/christos-bergeles/> Christos Bergeles</a>,
+          <br>
+          <em> International Journal of Computer Assisted Radiology and Surgery (IJCARS) and IPCAI 2020 </em>, 2020
+          <br>
+          <a href="https://link.springer.com/article/10.1007/s11548-020-02160-9">paper</a>
+          \
+          <a href="https://www.youtube.com/watch?v=hmsSILAIvms">video</a>
+          <p></p>
+          <p> Learning optical flow for intraoperative tracking of the retinal fundus in real-world retinal surgery using synthetic data.</p>
+        </td>
+      </tr>
+
+         <tr onmouseout="thesis_stop()" onmouseover="thesis_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='phd_thesis'>
+            <img src='data/PhD thesis/results.png' width=180></div>
+            <img src='data/PhD thesis/method.png' width="180" height="100">
+          </div>
+          <script type="text/javascript">
+            function thesis_start() {
+              document.getElementById('phd_thesis').style.opacity = "1";
+            }
+
+            function thesis_stop() {
+              document.getElementById('phd_thesis').style.opacity = "0";
+            }
+            db3d_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://discovery.ucl.ac.uk/id/eprint/10157202/">
+            <span class="papertitle">Pixel-level semantic understanding of ophthalmic images and beyond
+
+ </span>
+          </a>
+          <br>
+            <strong>Theodoros Pissas</strong>,
+          <br>
+          <em> University College London </em>, 2022
+          <br>
+          <a href="https://discovery.ucl.ac.uk/id/eprint/10157202/1/PhD_Thesis_Pissas_final.pdf">thesis</a>
+          <p>PhD thesis</p>
+        </td>
+      </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                I stole this template from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
